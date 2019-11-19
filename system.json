@@ -1,0 +1,38 @@
+{
+    "selected_mode":"cerebellum",
+
+    "cerebellum":
+    {
+	"mode":"cerebellum",
+	"simulation_time": 1000,
+	"dt": 0.1,
+	"x_points": 2,
+	"y_points": 2,
+	"n_x_regions": 1,
+	"n_y_regions": 1,
+	"region_names": ["cerebellum"],
+	"memory_per_node[GB]": 14,
+	"network_configuration_visualization": false,
+	"use_DTI_data": false,
+	"indegree_connections_per_post_synaptic_neuron":
+	[
+	],
+	"record_target_neuron_variables":
+	[
+	],
+	"record_calculation_times":true,
+	"record_spike_times_per_process":false,
+	"record_neuron_positions_per_process":false,
+	"record_spike_times_per_neuron_type":false,
+	"record_neuron_positions_per_neuron_type":false,
+	"record_neuron_state_varibles_per_neuron_type":false,
+	"record_synaptic_conductance_buffers_per_neuron_type":false,
+	"record_spike_info":false,
+	"record_intra_regional_connection_positions":false,
+	"record_intra_regional_connection_samples":false,
+	"record_inter_regional_connection_positions":false,
+	"record_inter_regional_connection_samples":false,
+	"record_settings":false,
+	"record_spike_time_communications":false
+    }
+}
